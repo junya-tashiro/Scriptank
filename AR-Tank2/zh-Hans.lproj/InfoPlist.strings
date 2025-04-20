@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  AR-Tank2
+
+  Created by 田代純也 on 2024/02/27.
+  
+*/
+
+NSCameraUsageDescription = "显示匹配屏幕需要获得许可。";
+
+NSLocalNetworkUsageDescription = "使用[与他人一起玩]功能需要获得许可。";
