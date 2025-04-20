@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  AR-Tank2
+
+  Created by 田代純也 on 2024/02/27.
+  
+*/
+
+NSCameraUsageDescription = "Permission is required to open the battle screen.";
+
+NSLocalNetworkUsageDescription = "Permission is required to use the Multi Play mode.";

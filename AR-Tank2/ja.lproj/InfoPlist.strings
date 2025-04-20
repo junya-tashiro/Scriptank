@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  AR-Tank2
+
+  Created by 田代純也 on 2024/02/27.
+  
+*/
+
+NSCameraUsageDescription = "対戦画面を表示するためには許可が必要です。";
+
+NSLocalNetworkUsageDescription = "「みんなであそぶ」機能を使用するには許可が必要です。";

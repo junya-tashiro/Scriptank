@@ -1,0 +1,174 @@
+/* 
+  Localizable.strings
+  AR-Tank2
+
+  Created by 田代純也 on 2024/02/27.
+  
+*/
+
+//ViewController.swift
+"Multi" = "与他人一起玩";
+"Solo"  = "独自玩";
+"Make room" = "创建房间";
+"Join room" = "查找房间";
+"Room name" = "房间名称";
+"Back" = "返回";
+"Make" = "创建";
+"Join" = "查找";
+"Can't find the room." = "找到房间。";
+"Leader disconnected the room." = "领导已切断房间连接。。";
+
+//SettingViewController.swift
+"User name" = "用户名";
+"Draw detail" = "绘图详情";
+"No save" = "未保存";
+"Save" = "保存";
+
+//ValueDecisionViewController.swift
+"OK" = "决策";
+"Reflection" = "反映";
+"No reflection" = "不反映";
+"Defined" = "预定义变量";
+"List element" = "列表要素";
+"Eval Int" = "整数评估";
+"Eval Float" = "小数评估";
+"List length" = "列表长度";
+"Remainder" = "越过";
+"Tank var" = "坦克型变量";
+"Bullet var" = "子弹型变量";
+"Other funcs" = "其他功能";
+"Initialize tank var" = "初始化坦克型变量";
+"Initialize bullet var" = "初始化子弹型变量";
+"Init Tank" = "初始化坦克型变量";
+"Init Bullet" = "初始化子弹型变量";
+"Bool variable not declared" = "未声明 Bool 类型的变量";
+"Int variable not declared" = "未声明 Int 类型的变量";
+"Float variable not declared" = "未声明 Float 类型的变量";
+"Tank variable not declared" = "未声明 Tank 类型的变量";
+"Bullet variable not declared" = "未声明 Bullet 类型的变量";
+"Bool list not declared" = "未声明 Bool 类型的列表";
+"Int list not declared" = "未声明 Int 类型的列表";
+"Float list not declared" = "未声明 Float 类型的列表";
+"Tank list not declared" = "未声明 Tank 类型的列表";
+"Bullet list not declared" = "未声明 Bullet 类型的列表";
+"List not declared" = "未声明列表";
+
+//EditorViewController.swift
+"Define new" = "新定义";
+"Variable name" = "变量名";
+"Name" = "名称";
+"Text" = "文本";
+"Not entered yet" = "未进入";
+" Choose process" = " 选择流程";
+
+//EditorElement.swift
+"Bool" = "Bool";
+"Int" = "整数";
+"Float" = "小数";
+"Tank" = "坦克";
+"Bullet" = "子弹";
+"About variable" = "声明和更新变量";
+"About list" = "声明和更新列表";
+"If/Repetition" = "If 语句和重复";
+"Path" = "途径";
+"Print" = "显示句子";
+"You can't edit restored blocks" = "无法编辑从存储数据\n中恢复的区块。";
+" Conditional" = " 条件处理";
+" Path" = " 途径";
+"Bool list" = "Bool 列表";
+"Int list" = "整数列表";
+"Float list" = "小数列表";
+"Tank list" = "坦克列表";
+"Bullet list" = "子弹列表";
+"Input var name" = "输入变量名";
+"Choose list" = "选择列表";
+"Input condition" = "输入条件";
+"Choose name" = "选择名称";
+"Input value" = "输入数值";
+"Initialize" = "初始化";
+"Append" = "增补";
+"Input text" = "输入文本";
+"Choose variable" = "选择变量";
+
+//msgLabel.swift
+"Type" = "类型";
+"Value" = "数值";
+"Order" = "操作";
+"VarName" = "变量名";
+"ListName" = "列表名";
+"  Print " = "  显示 ";
+
+//PathViewController.swift
+"STOP" = "停乐停舞";
+"Redo" = "重制作";
+"Stop Tank" = "停坦克";
+
+//StageSelect.swift
+"Stage" = "阶段";
+"New stage unlocked!" = "新阶段现已开放！";
+
+//ButtleViewController.swift
+"Set field" = "字段集";
+"Battle start" = "战斗开始";
+"Standby?" = "待命？";
+"Capture a flat surface" = "将相机对准一个平面";
+"Disconnect" = "断开";
+"Battle" = "战斗";
+"Add CPU" = "附加 CPU";
+"Balance the number of Tanks" = "确保两队都有足够的人手";
+"To home" = "返回首页";
+"Tap on the plane to set field" = "单击平面设置字段";
+"Allow Scriptank to use camera." = "未经许可使用相机。";
+"The contents of the PrintBlock and code errors will be displayed here" = "如果添加了显示块或出现代码错误，将在此处显示";
+"To home?" = "返回首页?";
+"Withdraw from buttle?" = "退赛?";
+"No" = "不是";
+"Yes" = "是";
+
+//HelpViewController.swift
+"Help" = "帮助";
+"How to play" = "打法";
+"In this stage, you control your tank not by yourself but by program." = "在这个阶段，你不是靠自己，而是靠程序来控制坦克。";
+"During the battle, your tank repeats the program edited here." = "在丁字裤期间，您的油箱会重复此处编辑的程序。";
+"How to controll tank by program" = "如何以编程方式操作油罐";
+"By changing the value of the Bool variable [shoot] to True, your tank shoots a bullet." = "将 Bool 变量 [shoot] 的值改为 True，坦克就会发射子弹。";
+"By changing the value of the Int variables [ref_x] and [ref_y], the x-coordinate and y-coordinate of your tank's aim are updated." = "通过改变 Int 变量 [ref_x] 和 [ref_y] 的值，可以更新坦克瞄准点的 x 坐标和 y 坐标。";
+"By setting a route from the [Path] menu, you can input a movement plan into your tank." = "通过[路径]菜单设置路线，您可以将移动计划输入坦克。";
+"Once inputted, your tank's movement plan will not be updated until the movement plan is completed or STOP order is sent." = "一旦输入，您的坦克调度计划将不会更新，直到调度计划完成或发出停止命令。";
+"The Int variable [count] is the current number of turns." = "Int 变量 [count] 是当前的转数。";
+"The Tank variable [self] is your tank." = "Tank 变量 [self] 就是你的坦克。";
+"The Tank list [enemys] is a list of all living enemy tanks." = "Tank 列表 [enemys] 列出了所有活着的敌方坦克。";
+"The bullet type list [bullets] is a list of all bullets on the field released by tanks other than your tank." = "Bullet 列表 [bullets] 列出了战场上除你的坦克之外由其他坦克释放的所有子弹。";
+"How to use program blocks" = "计划块规格";
+"There are five types of variables and lists: Bool, Int, Float, Tank, and Bullet." = "变量和列表有五种类型： Bool, Int, Float, Tank 和 Bullet。";
+"Tank variable has two values: x and y, which means x-coordinate and y-coordinate." = "Tank 变量有两个值：x 和 y，即 x 坐标和 y 坐标。";
+"Bullet variable has three values: x, y, and θ, which means x-coordinate, y-coordinate, and angle of bullet." = "Bullet 变量有三个值：x, y 和 θ，即子弹的 x 坐标, y 坐标和角度。";
+"For list, you can do two operations: [initialize] and [add elements to the end]." = "对于列表，可以进行两种操作： [初始化]和[向末尾添加元素]。";
+"[If] block executes the processing of the indented blocks if the following condition is true." = "如果以下条件为真，[If] 块将执行缩进块的处理。";
+"[While] block repeats the processing of the indented blocks while the following condition is true." = "当以下条件为真时，[While] 块重复处理缩进块。";
+"[For] block repeats the process of the indented blocks, assigning each element of the list to specified variable in turn." = "[For] 块重复缩进块的过程，依次将列表中的每个元素赋值给指定变量。";
+
+//TOL_Interpriter.swift
+"Incorrect [Bool] formula" = "Bool 公式不正确";
+"Incorrect [Int] formula" = "Int 公式不正确";
+"Incorrect [Float] formula" = "Float 公式不正确";
+"Incorrect [Tank] formula" = "Tank 公式不正确";
+"Incorrect [Bullet] formula" = "Bullet 公式不正确";
+"[Bool] formula not entered" = "Bool 未输入公式";
+"[Int] formula not entered" = "Int 未输入公式";
+"[Float] formula not entered" = "Float 未输入公式";
+"[Tank] formula not entered" = "Tank 未输入公式";
+"[Bullet] formula not entered" = "Bullet 未输入公式";
+"Non-existent [Bool] list" = "Bool 列表不存在";
+"Non-existent [Int] list" = "Int 列表不存在";
+"Non-existent [Float] list" = "Float 列表不存在";
+"Non-existent [Tank] list" = "Tank 列表不存在";
+"Non-existent [Bullet] list" = "Bullet 列表不存在";
+"Non-existent list" = "列表不存在";
+"Non-existent [Float] variable" = "缺少 Float 变量";
+"Non-existent variable" = "缺少变量";
+"Index exceeds list size" = "索引超出列表大小。";
+"Index must be an integer value greater than or equal to 0" = "参数必须是大于或等于 0 的整数值";
+"Argument type must be [Float]" = "参数必须是分数值";
+"Incorrect number of arguments" = "参数数量不正确。";
+"Incorrect [For] statement format of non-existent list" = "for 语句格式不正确，或列表不存在。";
