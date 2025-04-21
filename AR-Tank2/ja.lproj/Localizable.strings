@@ -1,0 +1,178 @@
+/* 
+  Localizable.strings
+  AR-Tank2
+
+  Created by 田代純也 on 2024/02/26.
+  
+*/
+
+//ViewController.swift
+"Multi" = "みんなであそぶ";
+"Solo"  = "ひとりであそぶ";
+"Make room" = "ルームをつくる";
+"Join room" = "ルームをさがす";
+"Room name" = "ルーム名";
+"Back" = "戻る";
+"Make" = "つくる";
+"Join" = "さがす";
+"Can't find the room." = "ルームが見つかりませんでした";
+"Leader disconnected the room." = "リーダーがルームの接続を切断しました。";
+
+//SettingViewController.swift
+"User name" = "ユーザー名";
+"Draw detail" = "詳細を描画する";
+"No save" = "保存しない";
+"Save" = "保存する";
+
+//ValueDecisionViewController.swift
+"OK" = "決定";
+"Reflection" = "反映する";
+"No reflection" = "反映しない";
+"Defined" = "定義済み変数";
+"List element" = "リストの要素";
+"Eval Int" = "整数の評価";
+"Eval Float" = "小数の評価";
+"List length" = "リストの長さ";
+"Remainder" = "あまり";
+"Tank var" = "タンク変数";
+"Bullet var" = "弾丸変数";
+"Other funcs" = "その他の関数";
+"Initialize tank var" = "タンク変数を初期化";
+"Initialize bullet var" = "弾丸変数を初期化";
+"Init Tank" = "Tank初期化";
+"Init Bullet" = "Bullet初期化";
+"Bool variable not declared" = "Bool型変数が宣言されていません";
+"Int variable not declared" = "Int型変数が宣言されていません";
+"Float variable not declared" = "Float型変数が宣言されていません";
+"Tank variable not declared" = "Tank型変数が宣言されていません";
+"Bullet variable not declared" = "Bullet型変数が宣言されていません";
+"Bool list not declared" = "Bool型リストが宣言されていません";
+"Int list not declared" = "Int型リストが宣言されていません";
+"Float list not declared" = "Float型リストが宣言されていません";
+"Tank list not declared" = "Tank型リストが宣言されていません";
+"Bullet list not declared" = "Bullet型リストが宣言されていません";
+"List not declared" = "リストが宣言されていません";
+
+//EditorViewController.swift
+"Define new" = "新たに定義";
+"Variable name" = "変数名";
+"Name" = "名前";
+"Text" = "テキスト";
+"Not entered yet" = "未入力です";
+" Choose process" = " 処理を選択";
+
+//EditorElement.swift
+"Bool" = "Bool";
+"Int" = "整数";
+"Float" = "小数";
+"Tank" = "タンク";
+"Bullet" = "弾丸";
+"About variable" = "変数の宣言・更新";
+"About list" = "リストの宣言・更新";
+"If/Repetition" = "if文・繰り返し";
+"Path" = "経路";
+"Print" = "プリント文";
+"You can't edit restored blocks" = "保存データから復元した\nブロックは編集できません";
+" Conditional" = " 条件処理";
+" Path" = " 経路";
+"Bool list" = "Boolリスト";
+"Int list" = "Intリスト";
+"Float list" = "Floatリスト";
+"Tank list" = "Tankリスト";
+"Bullet list" = "Bulletリスト";
+"Input var name" = "変数名を入力";
+"Choose list" = "リストを選択";
+"Input condition" = "条件を入力";
+"Choose name" = "名前を選択";
+"Input value" = "値を入力";
+"Initialize" = "初期化";
+"Append" = "追加";
+"Input text" = "テキストを入力";
+"Choose variable" = "変数を選択";
+
+//msgLabel.swift
+"Type" = "型";
+"Value" = "値";
+"Order" = "操作";
+"VarName" = "変数名";
+"ListName" = "リスト名";
+"  Print " = "  プリント ";
+
+//PathViewController.swift
+"STOP" = "停止";
+"Redo" = "やり直す";
+"Stop Tank" = "戦車を止める";
+
+//StageSelect.swift
+"Stage" = "ステージ ";
+"New stage unlocked!" = "新しいステージが開放されました!";
+
+//ButtleViewController.swift
+"Set field" = "フィールドセット";
+"Battle start" = "バトルスタート";
+"Standby?" = "スタンバイ?";
+"Capture a flat surface" = "カメラを平面に向けてください";
+"Disconnect" = "接続を切る";
+"Battle" = "バトルへ";
+"Add CPU" = "CPUを追加";
+"Balance the number of Tanks" = "両チームの人数を揃えてください";
+"To home" = "ホームに戻る";
+"Tap on the plane to set field" = "平面上をタップ・スライドしてフィールド設置";
+"Allow Scriptank to use camera." = "カメラの使用が許可されていません。";
+"The contents of the PrintBlock and code errors will be displayed here" = "プリントブロックを追加した場合やコードエラーがある場合ここに表示されます";
+"To home?" = "ホームに戻る?";
+"Withdraw from buttle?" = "対戦を抜ける?";
+"No" = "いいえ";
+"Yes" = "はい";
+
+//HelpViewController.swift
+"Help" = "ヘルプ";
+"How to play" = "遊び方";
+"In this stage, you control your tank not by yourself but by program." = "このステージでは, ユーザーによる操作ではなくプログラムを組むことによって戦車を動かします。";
+"During the battle, your tank repeats the program edited here." = "対戦中, 戦車はここで組んだプログラムを繰り返し実行します。";
+"How to controll tank by program" = "プログラムによる戦車の操作方法";
+"By changing the value of the Bool variable [shoot] to True, your tank shoots a bullet." = "Bool型変数の「shoot」の値をtrueに変えることで戦車は攻撃を行います。";
+"By changing the value of the Int variables [ref_x] and [ref_y], the x-coordinate and y-coordinate of your tank's aim are updated." = "小数型変数の「ref_x」、「ref_y」の値を変えることで, 戦車のエイムのx座標, y座標が更新されます。";
+"By setting a route from the [Path] menu, you can input a movement plan into your tank." = "「経路」から経路を設定することで戦車に移動計画をインプットできます。";
+"Once inputted, your tank's movement plan will not be updated until the movement plan is completed or STOP order is sent." = "一度インプットされた移動計画が完了するか停止の命令が送られるまで戦車の移動計画は更新されません。";
+"The Int variable [count] is the current number of turns." = "整数型変数「count」は現在のターン数を表しています。";
+"The Tank variable [self] is your tank." = "タンク型変数「self」は操っている戦車自身を表しています。";
+"The Tank list [enemys] is a list of all living enemy tanks." = "タンク型リスト「enemys」は存在する敵戦車のリストです。";
+"The bullet type list [bullets] is a list of all bullets on the field released by tanks other than your tank." = "弾丸型リスト「bullets」は自分以外の戦車が放ったフィールドに存在するすべての弾丸のリストです。";
+"How to use program blocks" = "プログラムブロックの仕様";
+"There are five types of variables and lists: Bool, Int, Float, Tank, and Bullet." = "変数, リストには「Bool型」, 「整数型」, 「小数型」, 「タンク型」, 「弾丸型」の5つの種類が存在します。";
+"Tank variable has two values: x and y, which means x-coordinate and y-coordinate." = "「タンク型」の変数はx, yの2つの値を持ち, それぞれx座標とy座標を表します。";
+"Bullet variable has three values: x, y, and θ, which means x-coordinate, y-coordinate, and angle of bullet." = "「弾丸型」の変数はx, y, θの3つの値を持ち, それぞれx座標, y座標, 弾丸の向きを表します。";
+"For list, you can do two operations: [initialize] and [add elements to the end]." = "リストについては「初期化」と「末尾に要素を追加」の2つの操作が行えます。";
+"[If] block executes the processing of the indented blocks if the following condition is true." = "「if」ブロックは、後ろに続く値がtrueなら字下げされたブロックの処理を実行します。";
+"[While] block repeats the processing of the indented blocks while the following condition is true." = "「while」ブロックは、後ろに続く値がtrueである限り字下げされたブロックの処理を繰り返し実行します。";
+"[For] block repeats the process of the indented blocks, assigning each element of the list to specified variable in turn." = "「for」ブロックは、リストの要素を順番にある変数に代入して字下げされたブロックの処理を繰り返し実行します。";
+
+//TOL_Interpriter.swift
+"Incorrect [Bool] formula" = "Bool計算式が正しくありません";
+"Incorrect [Int] formula" = "Int計算式が正しくありません";
+"Incorrect [Float] formula" = "Float計算式が正しくありません";
+"Incorrect [Tank] formula" = "Tank計算式が正しくありません";
+"Incorrect [Bullet] formula" = "Bullet計算式が正しくありません";
+"[Bool] formula not entered" = "Bool計算式が入力されていません";
+"[Int] formula not entered" = "Int計算式が入力されていません";
+"[Float] formula not entered" = "Float計算式が入力されていません";
+"[Tank] formula not entered" = "Tank計算式が入力されていません";
+"[Bullet] formula not entered" = "Bullet計算式が入力されていません";
+"Non-existent [Bool] list" = "Boolリストが存在しません";
+"Non-existent [Int] list" = "Intリストが存在しません";
+"Non-existent [Float] list" = "Floatリストが存在しません";
+"Non-existent [Tank] list" = "Tankリストが存在しません";
+"Non-existent [Bullet] list" = "Bulletリストが存在しません";
+"Non-existent list" = "リストが存在しません";
+"Non-existent [Float] variable" = "存在しないFloat値です";
+"Non-existent variable" = "存在しない変数です";
+"Index exceeds list size" = "インデックスがリストのサイズを超えています";
+"Index must be an integer value greater than or equal to 0" = "インデックスは0以上の整数値でないといけません";
+"Argument type must be [Float]" = "引数は小数値でなければいけません";
+"Incorrect number of arguments" = "引数の数が正しくありません";
+"Incorrect [For] statement format of non-existent list" = "for文の形式が不正, あるいはリストが存在しません";
+
+
+
+//NSLocalizedString("", comment: "")
