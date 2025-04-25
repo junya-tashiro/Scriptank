@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://sites.google.com/view/scriptank/about-scriptank">
-    <img src="assets/icokn.png" width="60" alt="Scriptank icon" style="vertical-align: middle;">
+    <img src="assets/icon.png" width="60" alt="Scriptank icon" style="vertical-align: middle;">
   </a>
 </p>
 
