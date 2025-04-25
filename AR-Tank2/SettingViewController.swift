@@ -121,7 +121,7 @@ class SettingViewController: UIViewController {
         userDefaults.set(userName, forKey: "userName")
         userDefaults.set(self.showDetail, forKey: "showDetail")
         
-        if userName == "ksJCCpl8Jxj7giVU" {
+        if userName == "xxxxxx" {
             for i in 0 ..< 20 {
                 userDefaults.set(true, forKey: "isUnlockedStage" + String(i))
             }
