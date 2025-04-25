@@ -1,10 +1,7 @@
 <p align="center">
   <a href="https://sites.google.com/view/scriptank/about-scriptank">
-    <img src="assets/icon.png" width="60" alt="Scriptank icon" style="vertical-align: middle;">
+    <img src="assets/icokn.png" width="60" alt="Scriptank icon" style="vertical-align: middle;">
   </a>
-  <span style="font-size: 2em; font-weight: bold; display: inline-block; vertical-align: middle; line-height: 1;">
-    Scriptank
-  </span>
 </p>
 
 <p align="center">
@@ -29,14 +26,14 @@ ARによる臨場感のある3D対戦を実現
 ### スクリプトで戦車を制御
 専用の言語で戦車の動作をプログラミング
 初心者でも直感的に使えるビジュアルエディタも搭載
-この機能については[こちらのページ](docs/tol.md)にまとめています。
+この機能については[こちらのページ](https://github.com/junya-tashiro/Scriptank/blob/main/dock/tol.md)にまとめています。
 
 ### 複数人対戦対応
 近くの友達とその場でバトル
 
 ## 🔧 技術情報
 
-詳しい技術構成や使用ライブラリなどは[こちらの技術解説ページ](docs/tech.md)をご覧ください。
+詳しい技術構成や使用ライブラリなどは[こちらの技術解説ページ](https://github.com/junya-tashiro/Scriptank/blob/main/dock/tech.md)をご覧ください。
 
 ## ⚠️ 注意事項
 

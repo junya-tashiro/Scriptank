@@ -186,7 +186,7 @@ Float var 4.0 2.0 3.0 + * 0.0 sin –
   - 例2：`print "Hello"`
 
 ### 3.4.2. コマンド例（TOLコード）
-以下は, [こちらのページ](docs/tol.md)で掲載したブロックをTOLコードに変換した例です。
+以下は, [こちらのページ](https://github.com/junya-tashiro/Scriptank/blob/main/dock/tol.md)で掲載したブロックをTOLコードに変換した例です。
 
 ```
 (0, Int zero 0)
